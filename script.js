@@ -34,7 +34,7 @@ requestAnimationFrame(a);
 }
 
 function gift(){
-document.getElementById('giftText').innerHTML='🎉 Happy Birthday Priya ❤️🌹';
+document.getElementById('giftText').innerHTML='🎉 Happy Birthday swati ji.. ❤️🌹';
 for(let i=0;i<150;i++){
 let h=document.createElement('div');h.className='heart';h.innerHTML=Math.random()>0.5?'💖':'🌸';
 h.style.left=Math.random()*100+'vw';h.style.fontSize=(10+Math.random()*25)+'px';

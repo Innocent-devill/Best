@@ -7,7 +7,7 @@ app.style.display='block';startReveal();typeLetter();
 const app=document.getElementById('app');
 
 function typeLetter(){
-const txt="Dear Bantul,\nThank you for every smile, memory and laugh. Happy Birthday Betu❤️";
+const txt="Dear ,\nThank you for every smile, memory and laugh. Happy Birthday ❤️";
 let i=0; let el=document.getElementById('letter');
 let t=setInterval(()=>{el.innerHTML+=txt[i]=="\n"?"<br>":txt[i];i++;if(i>=txt.length)clearInterval(t)},40);
 }
